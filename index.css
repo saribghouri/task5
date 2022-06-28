@@ -1,0 +1,91 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 8px solid;
+     padding: 30px;
+    height: auto;
+    border-radius: 10px ;
+    justify-content: space-between;
+}
+
+.first{
+    flex-basis: 100%;
+    border: 5px solid;
+    border-radius: 10px ;margin-bottom: 10px;
+    /* height: 10%; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(215, 87, 8, 0.97);
+}
+
+
+.second{
+    flex-basis: 22%;
+    border: 5px solid;
+    border-radius: 10px ;margin-bottom: 10px;
+    height: 40vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+    background-color: rgba(232, 154, 8, 0.97);
+
+}
+.third{
+    flex-basis: 50%;
+    border: 5px solid;
+    border-radius: 10px ;margin-bottom: 10px;
+  
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(241, 196, 14, 0.97);
+}
+
+.fourth{
+    flex-basis: 23%;
+    border: 5px solid;
+    border-radius: 10px ;margin-bottom: 10px;
+    /* height: 10%; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(232, 154, 8, 0.97);
+    
+}
+
+.five{
+    flex-basis: 100%;
+    border: 5px solid;
+    border-radius: 10px ;margin-bottom: 10px;
+    /* height: 10%; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(215, 87, 8, 0.97);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .second{
+
+flex-basis: 100%;
+    }
+    .third{
+
+        flex-basis: 100%;
+            }
+            .fourth{
+
+                flex-basis: 100% ;
+          
+            }
+        
+            }
